@@ -25,7 +25,7 @@ public class Fichier {
         }
     }
 
-    public String Lire() throws IOException {
+    public String lire() throws IOException {
         String chaine = fR.readLine();
         return chaine;
     }
